@@ -49,15 +49,22 @@ We trained models with this data using a modified version of AMRlib (using Flan-
 
 # Reference
 
-If you use this dataset, please cite our article:
+If you use this dataset, please cite our [article](https://lrec.elra.info/lrec2026-main-932):
 
 ```
-@inproceedings{heinecke2026-et-al:wiki-amr,
-  author = {Heinecke, Johannes and Herledan, Frédéric and  Asadullah, Munshi and Damnati, Géraldine},
-  booktitle = {Proceedings of LREC 2026},
-  title = {{Creating a high quality Abstract Meaning Representation dataset automatically}},
+@inproceedings{heinecke-etal-2026-creating,
+  title = {Creating a High Quality Abstract Meaning Representation Dataset Automatically},
+  author = {Heinecke, Johannes and Munshi, Asadullah and Herledan, Frédéric and Damnati, Geraldine},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  month = {May},
   year = {2026},
-  address = {Palma de Mallorca, Spain}
+  pages = {11907--11915},
+  address = {Palma, Mallorca, Spain},
+  publisher = {European Language Resources Association (ELRA)},
+  editor = {Piperidis, Stelios and Bel, Núria and van den Heuvel, Henk and Ide, Nancy and Krek, Simon and Toral, Antonio},
+  doi = {10.63317/3qai4xpkg9v4},
+  abstract = {As only a few gold training datasets are available today, Abstract Meaning Representation (AMR) parsers are mainly trained on AMR 3.0, the largest dataset (Knight et al., 2020) which contains 55k sentences for training. Even if great progress has been made, leading to parsers that can reach Smatch scores higher than 83% on the AMR 3.0 test dataset, this is not accurate enough to be used in real world application pipelines. More data could help improve performance, but manually annotating sentences is costly. So, we have investigated an approach to automatically create synthetic data using different existing tools and models trained on AMR 3.0. This leads to better parsing performance with Smatch scores increased by 1 to 2 points (depending on the 3 gold test datasets used) with models trained on the augmented data.}
+  url = {https://lrec.elra.info/lrec2026-main-932},
 }
 ```
 
